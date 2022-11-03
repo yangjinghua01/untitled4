@@ -23,12 +23,19 @@ public:
 };
 class Student :public Persion{
 private:
+//    如果定义了对象成员，必须这样初始化（构造函数的后面： 对象成员（内容））
     Cource cource;
 public:
-    Student(const string &name, int age, const Cource &cource) : Persion(name, age), cource(cource) {}
+    Student(const string &name, int age, const Cource &cource)
+    : Persion(name, age), //既然继承了父类的就必须给父类的构造函数
+    cource(cource)
+    {
+
+    }
 };
 
-int main() {
-
+int main122333() {
+    Cource cource = Cource("dfsad");
+    Student student = Student("yjh",20,cource);
     return 0;
 }
