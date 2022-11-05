@@ -4,7 +4,7 @@
 #include "iostream"
 #include "queue"
 using namespace std;
-int main(){
+int main2222(){
 // 优先级队列 默认排序 默认做了从大到小的封装
 // 隐士代码  priority_queue<int,vector<int>,less<int>>
     priority_queue<int> priorityQueue;
