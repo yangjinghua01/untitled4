@@ -58,7 +58,7 @@ public:
     }
 };
 
-int main() {
+int main128885() {
     set<Person, doCompareAction3> setper;
     Person person("ay", 0);
     Person person1("clpp", 1);
