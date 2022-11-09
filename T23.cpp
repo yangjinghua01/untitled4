@@ -17,6 +17,7 @@ int main(){
     int number = 999;
     pthread_t pthreadID;
     pthread_create(&pthreadID,0,tunTask,&number);
-    sleep(10);
+//    sleep(10);//不建议使用这种方式
+    pthread_join(pthreadID, 0);
     return 0;
 }
