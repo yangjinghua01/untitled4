@@ -4,7 +4,7 @@
 #include "iostream"
 #include "set"
 using namespace std;
-int main(){
+int main19(){
     set<string,less<string>>setvar;
     setvar.insert("AAAA");
     setvar.insert("BBBB");
