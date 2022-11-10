@@ -13,7 +13,7 @@ void * tunTask(void * pvoid){
         sleep(1);
     }
 }
-int main(){
+int main23(){
     int number = 999;
     pthread_t pthreadID;
     pthread_create(&pthreadID,0,tunTask,&number);
