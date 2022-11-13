@@ -34,7 +34,7 @@ void * setMethod(void *){
     }
     return 0;
 }
-int main(){
+int main27(){
     pthread_t pthreadGet;
     pthread_create(&pthreadGet,0,getMethod,0);
     pthread_t pthreadSet;
