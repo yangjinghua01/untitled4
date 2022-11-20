@@ -31,7 +31,7 @@ void action2(){
     cout<<"手写智能指针内置的"<<sharedPtr2.use_count()<<endl;
 }
 
-int main(){
+int main30(){
     cout <<"内置智能指针执行"<<endl;
     action();
     cout<<"手写智能指针执行"<<endl;
