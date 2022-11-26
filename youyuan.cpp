@@ -12,7 +12,7 @@ public:
         cout << human::name << endl;
     }
 };
-int main()
+int main000000000()
 {
     student st;
     st.print();
