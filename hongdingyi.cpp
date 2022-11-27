@@ -5,7 +5,7 @@
 #include <iostream>
 #include "hongdingyi.h"  //使用宏
 using namespace std;
-int main(){
+int main45645645(){
 #ifdef DEBUG
     cout<<"正式环境"<<endl;
 #else

@@ -18,7 +18,7 @@
 
 using namespace std;
 
-int main() {
+int main0007788() {
 #if 1
     cout << "真" << endl;
 #elif 0
